@@ -47,38 +47,37 @@ docker compose up -d --build
 ```
 
 ### 🌐 Erişim
-Uygulama: http://localhost
-Sunucu IP: http://SUNUCU_IP
+- Uygulama: http://localhost
+- Sunucu IP: http://SUNUCU_IP
 
 
 ### ⚡ Load Test Sonuçları
 
 ApacheBench ile test edilmiştir:
 
-1000 request
-50 concurrency
-~815 request/saniye
-0 failed request
-Ortalama latency: ~60 ms
+- 1000 request
+- 50 concurrency
+- ~815 request/saniye
+- 0 failed request
+- Ortalama latency: ~60 ms
 
 ### 🧠 Öğrenilen Konular
-Microservice mimarisi
-Docker container yönetimi
-Nginx reverse proxy
-Redis caching
-MySQL entegrasyonu
-Load testing (ApacheBench)
-Container networking
+- Microservice mimarisi
+- Docker container yönetimi
+- Nginx reverse proxy
+- Redis caching
+- MySQL entegrasyonu
+- Load testing (ApacheBench)
+- Container networking
 
-### 
-📊 Gelecek Geliştirmeler
-Prometheus + Grafana monitoring
-CI/CD pipeline (GitHub Actions)
-HTTPS (Let's Encrypt)
-Redis cache hit/miss tracking
-MySQL persistent volume
-.env environment yönetimi
-Rate limiting ve security hardening
-👨‍💻 Geliştirici
+### 📊 Gelecek Geliştirmeler
+- Prometheus + Grafana monitoring-
+- CI/CD pipeline (GitHub Actions)
+- HTTPS (Let's Encrypt)
+- Redis cache hit/miss tracking
+- MySQL persistent volume
+- .env environment yönetimi
+- Rate limiting ve security hardening
+#### 👨‍💻 Geliştirici
 
 Bu proje öğrenme ve DevOps pratiği amacıyla geliştirilmiştir.
