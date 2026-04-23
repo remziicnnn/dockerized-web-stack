@@ -1,6 +1,6 @@
 # 🚀 Dockerized Full Stack Web Stack (Node.js + Nginx + Redis + MySQL)
 
-Bu proje, Docker Compose kullanılarak oluşturulmuş çok servisli bir web altyapısıdır. Node.js backend, Nginx reverse proxy, Redis cache ve MySQL veritabanı içerir.
+Bu proje bir backend uygulamasını production’a yakın mimariyle ayağa kaldırmak amacıyla yapılmıştır.
 
 ---
 
