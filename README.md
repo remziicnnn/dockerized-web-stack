@@ -41,18 +41,17 @@ Client → Nginx → Node.js → Redis / MySQL
 git clone https://github.com/remziicnnn/dockerized-web-stack.git
 cd dockerized-web-stack
 
-### 2. Servisleri başlat
+#### 2. Servisleri başlat
 ```bash
 docker compose up -d --build
+```
 
-## 🌐 Erişim
+### 🌐 Erişim
 Uygulama: http://localhost
 Sunucu IP: http://SUNUCU_IP
 
-🌐 Erişim
-Uygulama: http://localhost
-Sunucu IP: http://SUNUCU_IP
-⚡ Load Test Sonuçları
+
+### ⚡ Load Test Sonuçları
 
 ApacheBench ile test edilmiştir:
 
@@ -62,7 +61,7 @@ ApacheBench ile test edilmiştir:
 0 failed request
 Ortalama latency: ~60 ms
 
-🧠 Öğrenilen Konular
+### 🧠 Öğrenilen Konular
 Microservice mimarisi
 Docker container yönetimi
 Nginx reverse proxy
@@ -71,6 +70,7 @@ MySQL entegrasyonu
 Load testing (ApacheBench)
 Container networking
 
+### 
 📊 Gelecek Geliştirmeler
 Prometheus + Grafana monitoring
 CI/CD pipeline (GitHub Actions)
