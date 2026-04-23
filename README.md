@@ -40,7 +40,7 @@ Client → Nginx → Node.js → Redis / MySQL
 ```bash
 git clone https://github.com/remziicnnn/dockerized-web-stack.git
 cd dockerized-web-stack
-
+```
 #### 2. Servisleri başlat
 ```bash
 docker compose up -d --build
